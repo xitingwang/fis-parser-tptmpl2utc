@@ -1,0 +1,21 @@
+{
+	"name": "fis-parser-tptmpl2utc",
+	"version": "1.0.0",
+	"description": "Convert thinkphp template to underscore template",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xitingwang/fis-parser-tptmpl2utc.git"
+	},
+	"keywords": [
+		"fis", "fis3", "parser", "thinkphp", "underscore", "template"
+	],
+	"dependencies": {
+    	"underscore": "1.4.4"
+	},
+	"author": "dw_wangchao1 <wangchao1@yy.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/xitingwang/fis-parser-tptmpl2utc/issues"
+	}
+}
