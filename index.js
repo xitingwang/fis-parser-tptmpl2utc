@@ -9,13 +9,13 @@ var _ = require('underscore');
 module.exports = function (content, file, conf) {
     _.templateSettings = {
         evaluate: /{([\s\S]+?)}/g,
-        interpolate: /{([\s\S]+?)}/g,
+        interpolate: /{=([\s\S]+?)}/g,
         escape: /<%-([\s\S]+?)%>/g
     };
 
     fis.util.merge(_.templateSettings, conf);
 
-    content = content.replace(/{:/ig, '{');
+    content = content.replace(/{/ig, '{=').replace(/{=:/ig, '{');
 
     var matches = content.match(/\$[\s\S]+?[\.|}|\)|\?]/ig);
     var params = {};

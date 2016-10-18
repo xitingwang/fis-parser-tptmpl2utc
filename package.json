@@ -1,6 +1,6 @@
 {
 	"name": "fis-parser-tptmpl2utc",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Convert thinkphp template to underscore template",
 	"main": "index.js",
 	"repository": {
